@@ -20,7 +20,8 @@ Humourous talk about the importance of applying the scientific method to the way
 - Fagan 1975: Rigourous inspections can remove 60%-90% of errors before the first test is run. Spend more time reviewing and less time writing unit tests? The first reader and the first hour are the most significant.
 - Nagappan et al (2007) & Bird et al (2009): Colocation doesn't correlate with fewer bugs.
 - El Emam et al (2001): "The Confounding Effect of Class Size on the Validity of Object-Oriented Metrics": Most metrics' values increate with code size. If you do a double-barrelled correlation, the latter accounts for all the signal.
-- Beautiful Code: Leading Programmers Explain How They Think
+- Andy Oram, Greg Wilson (2007): Beautiful Code: Leading Programmers Explain How They Think
+- Andy Oram, Greg Wilson (2010): Making Software: What Really Works, and Why We Believe It
 - Edward Tufte: Beautiful Evidence
 
 Talk ends with a plea to use evidence-based policy, and evidence-based approaches in general.
