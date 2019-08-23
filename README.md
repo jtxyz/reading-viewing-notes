@@ -2,6 +2,15 @@
 Notes on articles and videos
 
 
+### 23-08-2019
+
+#### [Philip Wadler - Theorems for free!][5]
+Shows how we can derive certain theorems purely from the type signature of functions. Reminded me of parts of the ["Throw Away the Irrelevant" episode of the CoRecursive podcast][6], where they discuss "reasoning about polymorphic type signatures".
+
+
+[5]: http://ecee.colorado.edu/ecen5533/fall11/reading/free.pdf
+[6]: https://corecursive.com/009-throw-away-the-irrelevant-with-john-a-de-goes/
+
 ### 12-08-2019
 #### [Greg Wilson - What We Actually Know About Software Development, and Why We Believe It’s True][0] (Conference Talk)
 
