@@ -1,15 +1,47 @@
 # reading-viewing-notes
 Notes on articles and videos
 
+### 24-08-2019
+#### [Introduction to Vega-Lite][12]
+Encoding channels 
+
+[12]: https://vega.github.io/vega-lite/tutorials/getting_started.html
 
 ### 23-08-2019
 
-#### [Philip Wadler - Theorems for free!][5]
-Shows how we can derive certain theorems purely from the type signature of functions. Reminded me of parts of the ["Throw Away the Irrelevant" episode of the CoRecursive podcast][6], where they discuss "reasoning about polymorphic type signatures".
+#### [Derek Jones - Finding the gold nugget papers in software engineering research][9]
+_The huge number of papers describing failed projects and/or containing clueless nonsense is a major obstacle for anyone wanting to locate useful new knowledge._ Contains some suggestions on quickly evaluating papers as potentially interesting for study, linking to earlier blog posts which dig deeper into certain "research smells".
+
+#### [Philip Wadler - Theorems for free!][10]
+Shows how we can derive certain theorems purely from the type signature of functions. Reminded me of parts of the ["Throw Away the Irrelevant" episode of the CoRecursive podcast][11], where they discuss "reasoning about polymorphic type signatures".
 
 
-[5]: http://ecee.colorado.edu/ecen5533/fall11/reading/free.pdf
-[6]: https://corecursive.com/009-throw-away-the-irrelevant-with-john-a-de-goes/
+[9]: http://ecee.colorado.edu/ecen5533/fall11/reading/free.pdf
+[10]: https://corecursive.com/009-throw-away-the-irrelevant-with-john-a-de-goes/
+[11]: http://shape-of-code.coding-guidelines.com/2016/06/10/finding-the-gold-nugget-papers-in-software-engineering-research/
+
+
+### 13-08-2019
+#### [Graham Lee - The problem with not-Apple][5] (Blog Post)
+Describes NeXTSTEP as a compromise between the vision of the [Xerox Alto](https://en.wikipedia.org/wiki/Xerox_Alto), such as OOP, ethernet and laser printers, and actual available technology of the day such as Display PostScript, UNIX, GNU, and C.
+
+Apple has a certain consistency in the way libraries are organised around "kits" (the groupings of APIs for different applications) and the core Objective-C libraries, compared to the chaos of supporting all the possible combinations of technologies Linux users might have on their systems. But, on closer inspection, maybe the Apple ecosystem isn't so coherent after all (inconsistencies in function call styles in ObjC APIs, Dashboard widgets written in JS)
+
+#### [Graham Lee - Resolution: Subscribe Self][6] (Blog Post)
+Discusses using RSS over social media to improve the ratio of interesting to rubbish content we come across.
+
+I'm giving ago, just created my Feedly account and imported Graham's OPML. Let's see how it goes.
+
+#### [Graham Lee - This is fine][7] (Blog Post)
+Points out how even when we try and make things "simple" for kids, there's a huge amount of implicit knowledge required (randint means random integer, what's an integer anyway?) even once you have you environment set up which requires an arcane series of steps in itself.
+
+#### [Graham Lee - By the river][8] (Blog Post)
+Moving post about mental health and living with negative thoughts.
+
+[5]: https://www.sicpers.info/2017/01/the-problem-with-not-apple/
+[6]: http://www.sicpers.info/2017/01/resolution-subscribe-self/
+[7]: https://www.sicpers.info/2016/12/this-is-fine/
+[8]: https://www.sicpers.info/2016/12/by-the-river/
 
 ### 12-08-2019
 #### [Greg Wilson - What We Actually Know About Software Development, and Why We Believe It’s True][0] (Conference Talk)
