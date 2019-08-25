@@ -3,7 +3,15 @@ Notes on articles and videos
 
 ### 24-08-2019
 #### [Introduction to Vega-Lite][12]
-Encoding channels 
+Marks can be e.g. points, bars. 
+
+Encoding maps data onto channels by indicating which field or aggregation 
+
+Channels in the early examples seem to be the x and y axes. What other channels might we discover? Colours, other dimensions, size of points perhaps?
+
+Channel types indicate whether data represents e.g. categories or numeric values.
+
+Also shows how to easily embed a visualisation in a web page.
 
 [12]: https://vega.github.io/vega-lite/tutorials/getting_started.html
 
