@@ -1,6 +1,32 @@
 # reading-viewing-notes
 Notes on articles and videos
 
+### 25-08-2019
+
+#### [Low defect density implies climate code less, not more, reliable][13]
+
+Somewhat counterintuitively, low "defect rates" in some software projects may be attributable to the fact that they're not very widely used rather than because they're highly reliable.
+
+#### [Halstead’s metrics and flat-Earthers are still with us][14]
+
+Halstead complexity measures have been shown to have no more predictive power than lines of code, so why do people still use them?
+
+#### [Object-Oriented Programming in Objective-C][15]
+
+A description of a "real" OO programming style where all control flow statements are replaced with method calls similarly to how loops are replaced with recursion in FP.
+
+#### [Entropy: Software researchers go to topic when they have no idea what else to talk about][16]
+
+Shannon's entropy formula cannot be applied to source code because it makes assumptions about the source does not have these characteristics. For a start, dependency between events leads to _conditional entropy_. But even then, it's not a meaningful metric for describing code.
+
+[13]: http://shape-of-code.coding-guidelines.com/2012/12/24/low-defect-density-implies-climate-code-less-not-more-reliable/
+
+[14]: http://shape-of-code.coding-guidelines.com/2011/08/18/halsteads-metrics-and-flat-earthers-are-still-with-us/
+
+[15]: https://www.sicpers.info/2015/05/object-oriented-programming-in-objective-c/
+
+[16]: http://shape-of-code.coding-guidelines.com/2015/04/04/entropy-software-researchers-go-to-topic-when-they-have-no-idea-what-else-to-talk-about/
+
 ### 24-08-2019
 #### [Introduction to Vega-Lite][12]
 Marks can be e.g. points, bars. 
