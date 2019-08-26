@@ -1,6 +1,22 @@
 # reading-viewing-notes
 Notes on articles and videos
 
+### 26-08-2019
+
+#### [Vega-Lite tutorial: Exploring Data][16]
+
+Can use a `count` aggregate type that uses a special `*` field.
+
+Can discretise continuous varialbles by setting `bin` to true in the channel mapping.
+
+Data type `temporal` natively supports discretisation into by date, e.g. `month` or `yearmonth`.
+
+Transformations can create new data fields by performing calculations on data, as well as more complex tranformations such as folding, flattening and filtering.
+
+In the `color` channel, `scale` `ranges` can be used to map nominal values to a fixed color palette. 
+
+[16]: https://vega.github.io/vega-lite/tutorials/explore.html
+
 ### 25-08-2019
 
 #### [Low defect density implies climate code less, not more, reliable][13]
