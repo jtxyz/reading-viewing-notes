@@ -15,7 +15,36 @@ Transformations can create new data fields by performing calculations on data, a
 
 In the `color` channel, `scale` `ranges` can be used to map nominal values to a fixed color palette. 
 
+#### [Monoids, semigroups, and friends][17]
+
+FP and OOP communities both have jargon, although each can seem unfamiliar to the other camp. OOP's is based on (possibly bad) metaphors for real-life phenomena (decorators, visitors, cohesion) whereas FP's is based on (possibly stretched) analogies to maths concepts. Nonetheless, there is some parallel evolution / convergence, such as when Eric Evans discussed "closure of operations", a concept somewhat similar to monoids.
+
+In abstract algebra, magmas are sets with a single defined binary operation which is closed (i.e. the operation only produced members of the set). In the article, the sets in the algebraic definition seem to correspond to types, e.g. `Foo`.
+
+Semigroups are a subset of magmas, and monoids a subset of semigroups, in the sense that the rules for membership are relaxed as you go wider.
+
+Monoids have: a single `binary operation`, which is `associative`, and has an `identity element`. No requirement that the operation is `commutative`.
+
+Examples: Angular addition, or indeed any modulo-based addition.
+
+The free monoid is the sequence, it is not lossy and can be used to defer the choice of subsequent reduce or aggregate operation.
+
+Summing currencies using the Kent Beck-inspired Money API is shown to be a monoid too, for the existing implementations of IExpression. New implementations of IExpression could potentially violate the monoid laws though.
+
+Times can in fact be derived from plus, as it is in `stimesMonoid` in Haskell. The same code translated into Haskell is able to benefit from the Monoid typeclass to get an implementation of times.
+
+Operations on complex types can also be monoid, such as combination of convex hulls. It's fairly intuitive that this should be monoidal since it's similar to list concatenation.
+
+Property-based tests using [Hedgehog](https://github.com/hedgehogqa/fsharp-hedgehog) and [Unquote](https://github.com/SwensenSoftware/Unquote) can be used to show that the implementation is a valid monoid.
+
+Tuples or data objects whose members form monoids themselves form monoids, as you can always compose the monoids across the members.
+
+Functions that return types that form monoids also form monoids, since the functions can be called and then the operation applied to the result.
+
+Unary functions whose result has the same type as their argument form monoids over composition. The identity element is the identity function (!).
+
 [16]: https://vega.github.io/vega-lite/tutorials/explore.html
+[17]: https://blog.ploeh.dk/2017/10/05/monoids-semigroups-and-friends/
 
 ### 25-08-2019
 
