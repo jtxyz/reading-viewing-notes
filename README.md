@@ -23,7 +23,7 @@ In abstract algebra, magmas are sets with a single defined binary operation whic
 
 Semigroups are a subset of magmas, and monoids a subset of semigroups, in the sense that the rules for membership are relaxed as you go wider.
 
-Monoids have: a single `binary operation`, which is `associative`, and has an `identity element`. No requirement that the operation is `commutative`.
+Monoids have: a single `binary operation`, which is `associative`, and has an `identity element`. (No requirement that the operation is `commutative`.)
 
 Examples: Angular addition, or indeed any modulo-based addition.
 
@@ -42,6 +42,12 @@ Tuples or data objects whose members form monoids themselves form monoids, as yo
 Functions that return types that form monoids also form monoids, since the functions can be called and then the operation applied to the result.
 
 Unary functions whose result has the same type as their argument form monoids over composition. The identity element is the identity function (!).
+
+Wrapping in `maybe` can elevate semigroups to monoids. This corresponds to adjoining a `nothing` value to the original set to act as the identity element. Then, for example, the `last` semigroup becomes the `last` monoid.
+
+Monoids remain monoids under lazy computation. Once applicative functors have been explored, it will be possible to have generalisations that implement lazy monoids.
+
+Containers of monoids can be accumulated, for lists in Haskell that's the `mconcat` function, otherwise there's the more general `fold` function.
 
 [16]: https://vega.github.io/vega-lite/tutorials/explore.html
 [17]: https://blog.ploeh.dk/2017/10/05/monoids-semigroups-and-friends/
