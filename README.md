@@ -1,6 +1,15 @@
 # reading-viewing-notes
 Notes on articles and videos
 
+### 03-09-2019
+
+[Developer On Fire: Adam Gordon Bell - Collecting Solutions][17]
+
+Meet the man behind CoRecursive!
+
+[17]: https://developeronfire.com/podcast/episode-424-adam-gordon-bell-collecting-solutions
+
+
 ### 26-08-2019
 
 #### [Vega-Lite tutorial: Exploring Data][16]
